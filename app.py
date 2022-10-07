@@ -74,7 +74,7 @@ with tab1:
             with st.expander("📝 Explanation"):
                 #description about the image
                 ###########################
-                st.write("Details of the image")
+                st.write("Corn blight is the general name for a group of similar fungi that attack corn plants. The disease appears first on the leaves, and then spreads to the stalk and, if left untreated, will start to affect the kernels of corn")
         with col2:
             st.image(image_resizer("Corn_Blight.jpeg", "Corn_Common_Rust.jpg"), caption = "Common Rust Corns")
             #explanation of the image
