@@ -99,7 +99,7 @@ with tab1:
             with st.expander("📝 Explanation"):
                 #description about the image
                 ###########################
-                st.write("Details of the image")
+                st.write("This is an image of a healthy corn.")
 
 #predictions
 with tab2:
