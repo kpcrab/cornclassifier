@@ -74,14 +74,14 @@ with tab1:
             with st.expander("📝 Explanation"):
                 #description about the image
                 ###########################
-                st.write("Corn blight is the general name for a group of similar fungi that attack corn plants. The disease appears first on the leaves, and then spreads to the stalk and, if left untreated, will start to affect the kernels of corn")
+                st.write("Corn blight is the general name for a group of similar fungi that attack corn plants. The disease appears first on the leaves, and then spreads to the stalk and, if left untreated, will start to affect the kernels of corn.")
         with col2:
             st.image(image_resizer("Corn_Blight.jpeg", "Corn_Common_Rust.jpg"), caption = "Common Rust Corns")
             #explanation of the image
             with st.expander("📝 Explanation"):
                 #description about the image
                 ###########################
-                st.write("Details of the image")
+                st.write("Common rust is caused by the fungus Puccinia sorghi and occurs every growing season. It is seldom a concern in hybrid corn. Rust pustules usually first appear in late June. Early symptoms of common rust are chlorotic flecks on the leaf surface.")
 
         #creating another 2 columns
         col3, col4 = st.columns(2)
@@ -92,7 +92,7 @@ with tab1:
             with st.expander("📝 Explanation"):
                 #description about the image
                 ###########################
-                st.write("Details of the image")
+                st.write("Gray leaf spot is typically the most serious foliar disease of corn in the U.S. corn belt, although other diseases can be more important in areas and years where weather conditions do not favor gray leaf spot.")
         with col4:
             st.image(image_resizer("Corn_Blight.jpeg", "Corn_Health.jpg"), caption = "Health Corns")
             #explanation of the image
